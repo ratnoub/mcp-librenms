@@ -144,7 +144,8 @@ mcp-librenms/
     ├── __init__.py
     ├── __main__.py       # python -m mcp_librenms
     ├── client.py         # LibreNMS REST API HTTP client
-    └── server.py         # MCP server + tool definitions
+        ├── db.py             # Read-only LibreNMS database access (list_bgp_prefixes)
+        └── server.py         # MCP server + tool definitions
 ```
 
 ## License
